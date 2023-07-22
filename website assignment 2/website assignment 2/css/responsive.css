@@ -1,0 +1,239 @@
+/* between 1180px and 1900px */
+p{
+    font-size: 1.5vw;
+}
+h4 {
+    font-size: 3.5vw;
+    margin: auto;
+}
+h5{
+    font-size: 4vw;
+}
+h6 {
+    margin: auto;
+}
+.content .director-image {
+    width: 100%;
+    height: auto;
+}
+.content .nolantext p {
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.columnaward {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+table, th, td{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    text-align: center;
+}
+footer {
+    font-size: 1vw;
+    margin-top: 10%;
+}
+
+
+
+/* small mobile screen */
+@media screen and (max-width: 700px) {
+    .topnav ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    p {
+       font-size: 5vw;
+       width: 100%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 5vw;
+        margin: 10%
+    }
+    h2 {
+        float:none;
+        font-size: 5vw;
+        margin: 10%
+    }
+    h4 {
+        font-size: 7vw;
+        margin: 5%
+    }
+    h5 {
+        font-size: 8vw;
+        margin: 3px
+    }
+    h6 {
+        float: none;
+        font-size: 6vw;
+        margin: 2px
+    }
+    .column {
+        float:none ;
+        width: auto;
+    }
+    .section{
+        display: block;
+        float:none   
+    }     
+    .content {
+        font-size: 4vw;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 5px;
+    }
+    .content .list-image{
+        display: block;
+        margin:auto;
+        width: 100%;
+        height: auto;
+    }
+    .content .nolantext {
+        display: block;
+        float:none;
+        width: 100%;
+    }
+    table, th, td{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 2.5vw;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .columnaward {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    .Jcooper-image, .Drbrand-image {
+        width: 100%;
+        height: auto;
+      }
+    .button {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 10%;
+      }
+    .button-text {
+        font-size: 5.5vw;
+    }    
+    .footer{
+        margin-top: 10%;
+        font-size: 3vw;
+    }
+}
+
+/* laptops and desktops */
+@media only screen and (max-width: 1180px) { 
+    p {
+        font-size: 2vw;
+        width: 100%;
+     }
+    h1 {
+         text-align: center;
+         font-size: 4.5vw;
+         margin: 10%
+    }
+    h2 {
+         float:none;
+         font-size: 5vw;
+         margin: 10%
+    }
+    h4 {
+         font-size: 4vw;
+         margin: 5%
+    }
+    h5 {
+         font-size: 4vw;
+         margin: 3px
+    }
+    h6 {
+         float: none;
+         font-size: 3.5vw;
+         margin: 2px
+     }
+    .section{
+        display: block;
+        float:none   
+    }
+    .content {
+         font-size: 4vw;
+         margin: 7%;
+    }
+    .Jcooper-image, .Drbrand-image {
+        width: 100%;
+        height: auto;
+        float:none;
+        display:block;
+    }
+    .content .nolantext {
+        display: block;
+        float:none;
+        width: 100%;
+    }
+    table, th, td{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 2.5vw;
+        margin-bottom: 5%;
+        text-align: center;
+    }  
+    .column {
+        float:none;
+        display:inline
+    }
+    .columnaward {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    .button {
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
+    footer{
+        margin-top: 5%;
+        font-size: 2vw;
+    }
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1900px) { 
+    p{
+        font-size: 1.1vw;
+    }
+    h4{
+        font-size: 2vw;
+    }
+    h5{
+        font-size: 1.5vw;
+    }
+    .topnav{
+        font-weight: bold;
+    }
+    .columnbrand img {
+        width: 30%;
+        display:inline;
+        
+    }
+    .columnbrand a {
+        font-size: 100px;
+    }
+    table, th, td{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 1vw;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,270 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  float:left;
+  vertical-align: bottom;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 10%;
+}
+
+h3 {
+  float:left;
+  vertical-align: bottom;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'GFS Didot';
+  padding-top: 10%;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'GFS Didot';
+  margin-top: 0px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 66px;
+  padding-bottom: 10px;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+}
+
+p {
+  margin-bottom: 10%;
+}
+
+hr{
+  margin-left: 5%;
+}
+
+article {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.section{
+  color: white;
+  font-family: 'Avenir';
+  font-size: 24px;
+  display: inline-block;
+  text-align: center; 
+  margin-left:15%;
+  margin-right:15%;
+}
+
+/* Home page */
+.button {
+  background-color: black;
+  border-style:solid;
+  border-color: white;
+  border-radius: 10px;
+  margin-top:40%;
+}
+
+.button-text {
+  color:white;
+  font-size: 40px;
+  padding:2%;
+}
+
+.icon-point {
+  width:10%;
+}
+
+.Jcooper-image {
+  float: left;
+  width:60%;
+}
+.Drbrand-image {
+  float:right;
+  vertical-align: bottom;
+  width:60%;
+  margin-top: 5%;
+}
+
+/* cast page */ 
+.column {
+  float: left;
+  height: 500px;
+  width:672px;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* awards page */
+
+.columnaward {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin:80px;
+  padding-bottom:8%
+}
+
+.rowaward {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table, th, td{
+  color: white;
+  border:1px solid white;
+  width:1400px;
+  text-align: left;
+}
+
+/* general footer and images */
+img{
+  max-width:100%;
+  max-height:100%;
+  align-items: center;
+}
+
+footer{
+  color: white;
+  font-family: verdana;
+  font-size: 11px;
+  text-align: center;
+}
+
+
+/* Navigation bar */
+
+.topnav ul li a.active-page
+{
+  background-color:rgb(54, 42, 78);
+}
+
+.topnav {
+  border-bottom: 1px solid grey;
+  background-color: black;
+  overflow: hidden;
+  font-family: 'Futura PT'; 
+  text-align: center;
+}
+
+.topnav ul {
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li {
+  margin:auto;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 20%;
+  height: 84px;
+  line-height: 84px;
+}
+
+
+.musictext {
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2.5%;
+  text-align: left;
+}
+
+.content .nolantext {
+  width: 50%;
+}
+.content .nolantext p {
+  width: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.content {
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+.content .hanszimmer-image {
+  display: inline-block;
+  position: relative;
+}
+.content .director-image {
+  display: inline-block;
+}
+.content ul li img {
+  display: inline-block;
+  text-align: center;
+}
+
+.content ul li{
+  width: 100%;
+  height: 20%;
+  float: left;
+  text-align: center;
+}
+.content ul li h1{
+  width: 33%;
+  float: left;
+}
+.content ul li h2{
+  width: 33%;
+  float: left;
+}
+
+.content ul li p{
+  line-height: 1.2;
+  width: 33%;
+  float: left;
+}
